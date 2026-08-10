@@ -1,0 +1,5 @@
+fastapi
+pypdf
+qdrant-client
+sentence-transformers
+uvicorn[standard]
