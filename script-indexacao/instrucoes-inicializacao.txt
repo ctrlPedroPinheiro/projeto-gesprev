@@ -1,0 +1,21 @@
+1. Criar o ambiente e instalar dependencias:
+   py -3.12 -m venv .venv
+   .\.venv\Scripts\Activate.ps1
+   pip install -r requirements.txt
+
+2. Colocar os PDFs na pasta leis e indexar:
+   python indexar_legislacao.py
+
+   Por padrao, todos os arquivos .pdf dentro de leis e de suas subpastas
+   serao indexados automaticamente.
+
+   Tambem e possivel informar outros arquivos:
+   python indexar_legislacao.py "C:\caminho\lei1.pdf" "C:\caminho\lei2.pdf"
+
+3. Iniciar o servico RAG usado pelo backend:
+   uvicorn servico_embeddings:app --host 127.0.0.1 --port 8001
+
+4. Iniciar o backend com o perfil Llama:
+   .\mvnw.cmd spring-boot:run '-Dspring-boot.run.profiles=ai-llama'
+
+O banco vetorial fica salvo em qdrant_data. Nao inicie o indexador enquanto o servico RAG estiver aberto.
