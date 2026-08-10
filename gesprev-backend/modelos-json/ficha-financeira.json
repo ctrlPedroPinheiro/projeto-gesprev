@@ -1,0 +1,25 @@
+{
+  "servidor": {
+    "matricula": "090352-01",
+    "nome": "CASSIA GORETH CORREA DA SILVA",
+    "cargo": "Merendeira",
+    "regime": "Efetivo",
+    "dataAdmissao": "01/07/2010",
+    "divisao": "Secret.Educacao"
+  },
+  "anoReferencia": "2025",
+  "folhas": [
+    {
+      "competencia": "07/2010",
+      "vencimentos": 511.50,
+      "descontos": 56.26,
+      "liquido": 455.24
+    },
+    {
+      "competencia": "08/2010",
+      "vencimentos": 511.50,
+      "descontos": 56.26,
+      "liquido": 455.24
+    }
+  ]
+}

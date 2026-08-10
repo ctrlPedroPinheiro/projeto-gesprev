@@ -1,0 +1,44 @@
+{
+  "properties": [
+    {
+      "name": "jwt.secret",
+      "type": "java.lang.String",
+      "description": "Secret key used for JWT token signing and validation"
+    },
+    {
+      "name": "jwt.expiration",
+      "type": "java.lang.Long",
+      "description": "JWT token expiration time in milliseconds"
+    },
+    {
+      "name": "vlm.api.url",
+      "type": "java.lang.String",
+      "description": "URL endpoint for the VLM API service"
+    },
+    {
+      "name": "vlm.api.model",
+      "type": "java.lang.String",
+      "description": "Model name to use for VLM API requests"
+    },
+    {
+      "name": "qdrant.url",
+      "type": "java.lang.String",
+      "description": "URL endpoint for the Qdrant vector database"
+    },
+    {
+      "name": "llm.api.url",
+      "type": "java.lang.String",
+      "description": "URL endpoint for the LLM API service"
+    },
+    {
+      "name": "llm.api.model",
+      "type": "java.lang.String",
+      "description": "Model name to use for LLM API requests"
+    },
+    {
+      "name": "upload.dir",
+      "type": "java.lang.String",
+      "description": "Directory path for file uploads"
+    }
+  ]
+}

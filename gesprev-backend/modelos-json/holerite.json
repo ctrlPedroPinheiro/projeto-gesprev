@@ -1,0 +1,16 @@
+{
+  "mesReferencia": "05/2025",
+  "proventos": [
+    {
+      "descricao": "ABONO PERMANÊNCIA PREVIDENCIÁR",
+      "referencia": "1",
+      "valor": 1450.63
+    },
+    {
+      "descricao": "AFASTADO AUX.DOENCA",
+      "referencia": "30,00",
+      "valor": 10361.65
+    }
+  ],
+  "totalVencimentos": 11812.28
+}
